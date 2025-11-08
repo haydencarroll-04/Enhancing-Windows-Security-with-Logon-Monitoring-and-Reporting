@@ -20,18 +20,6 @@ Enable:
 
 See screenshots for examples.
 
----
-
-## Usage
-
-**1) Run once and open the report**
-```powershell
-# Run as Administrator
-powershell -ExecutionPolicy Bypass -File ".\Win-FailedLogons-Report.ps1" -LookbackHours 24 -OutDir "C:\SecReports"
-
-# Open latest
-Start-Process "C:\SecReports\FailedLogons_Latest.html"
-
 
 <img width="320" height="208" alt="Screenshot 2025-11-08 at 3 21 58 PM Medium" src="https://github.com/user-attachments/assets/0136091f-e6a8-4716-990f-b09ff3ea4124" />
 <img width="320" height="208" alt="Screenshot 2025-11-08 at 2 55 59 PM Medium" src="https://github.com/user-attachments/assets/7338c69b-4dac-4b4f-a352-cc99a96b7e6d" />
